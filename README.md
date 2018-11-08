@@ -1,4 +1,4 @@
-# Building Docker images. Push to Docker Registry. Pull from Kubernetes
+# Building Docker images. 
 
 
 ### Build
