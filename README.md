@@ -1,2 +1,13 @@
-# docker_build_push_to_k8s
-Download, Build image, and push to your K8s cluster
+# Building Docker images. Push to Docker Registry. Pull from Kubernetes
+
+
+### Build
+
+ - git clone https://github.com/buildmystartupio/basicnodeapp.git
+ - cd basicnodeapp
+ - cat Dockerfile
+ - docker build -t yourdockerrepo/basicnodeapp .
+ 
+ ### Push
+ 
+ - docker push yourdockerrepo/basicnodeapp
