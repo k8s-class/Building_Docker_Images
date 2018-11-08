@@ -8,6 +8,12 @@
  - cat Dockerfile
  - docker build -t yourdockerrepo/basicnodeapp .
  
- ### Push
+### Push
  
  - docker push yourdockerrepo/basicnodeapp
+
+### Run
+ 
+ - kubectl run basicnodeapp --image=yourdockerrepo/basicnodeapp --port=3000
+ - kubectl expose deployment basicnodeapp --type=NodePort
+ - kubectl get service
