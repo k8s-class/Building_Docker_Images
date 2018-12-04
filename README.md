@@ -18,7 +18,7 @@
  
  
 ### Push
- 
+ - docker login
  - docker push yourdockerrepo/basicnodeapp
  - docker push yourdockerrepo/basicwebapp
 
