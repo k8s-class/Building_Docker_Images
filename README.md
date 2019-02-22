@@ -27,3 +27,11 @@
  - kubectl run basicnodeapp --image=yourdockerrepo/basicnodeapp --port=3000
  - kubectl expose deployment basicnodeapp --type=NodePort
  - kubectl get service
+
+### Create dotnetcore console app
+
+- git clone https://github.com/dotnet/dotnet-docker.git
+- cd samples
+- cd dotnetapp
+- docker build --pull -t dotnetapp .
+- docker run --rm dotnetapp Hello .NET Core from Docker
