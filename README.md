@@ -22,8 +22,4 @@
  - docker push yourdockerrepo/basicnodeapp
  - docker push yourdockerrepo/basicwebapp
 
-### Run
- 
- - kubectl run basicnodeapp --image=yourdockerrepo/basicnodeapp --port=3000
- - kubectl expose deployment basicnodeapp --type=NodePort
- - kubectl get service
+
